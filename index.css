@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    
+}
+
+#Nav {
+    background: #FF7171;
+    display: flex;
+    padding: 0px 20px;
+    max-width:100vw;
+    font-size: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    
+    justify-content: space-between;
+}
+.img{
+    height: 20px;
+}
+
+#Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:100vw;
+    height: 100vh;
+    font-family: arial;
+}
+#left{
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding:0px 60px ;
+    height: 100%;
+    justify-content: center;
+    gap:30px;
+
+    background-image: linear-gradient(to right,#FFF7AD,#FFB4EE);
+}
+#main-head{
+    font-size: 50px;
+}
+#para{
+    font-size: 20px;
+}
+#click-but{
+    color: white;
+    background-color:#FF7171;
+    border: 0px;
+    padding: 15px 60px;
+    cursor: pointer;
+}
+#right{
+    background-image: url(pexels-robin-stickel-70497.jpg);
+    width: 50vw;
+    height: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#Bot-main{
+    height:100vh;
+    max-width:100%;
+    background-image: linear-gradient(to right,#FFF7AD,#FFB4EE);
+    display:flex;
+    gap:20px;
+
+}
+#bot-left{
+    display:flex;
+    height:100%;
+    width:50%;
+    align-items:center;
+    justify-content:end;
+    gap:10px;
+    /* padding:0px 30px; */
+}
+
+#left-pics{
+    display:flex;
+    height:70%;
+    width:45%;
+    flex-direction:column;
+    /* gap:10px; */
+    justify-content:space-between;
+}
+
+.left-pic1{
+    height:48%;
+    /* width:100%; */
+
+    background: url('pexels-rachel-claire-6752433.jpg') no-repeat center;
+    background-size:cover;
+}
+
+.left-pic2{
+    height:48%;
+    /* width:100%; */
+
+    background: url('pexels-eva-bronzini-6141651.jpg') no-repeat center;
+    background-size:cover;
+}
+
+#right-pic{
+    height: 70%;
+    width:45%;
+}
+.rp{
+    height:100%;
+}
+#bot-right{
+    display:flex;
+    height:100%;
+    width:50%;
+    align-items:center;
+    justify-content:start;
+    gap:10px;
+    padding:0px 30px;
+    font-family:arial;
+    
+}
+#box{
+    background-color:#FF7171;
+    padding:30px;
+}
+#lower-head1{
+    font-size:60px;
+}
+.lower-head{
+    font-size:20px;
+}
+#click-row{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+.img2{
+    height:20px
+}
+
+@media screen and (max-width:768px) {
+    *{
+        margin:0px;
+        max-width:100vw;
+    }
+    #Main{
+        flex-direction: column; 
+        align-items: center;
+        
+        max-width:100vw;
+        overflow-x:hidden;
+        
+    }
+    #left{
+    /* max-width:100vw; */
+    align-items: center;
+    /* padding:30px; */
+    margin:0px;
+    width:82%;
+    
+
+
+    }
+    #main-head{
+        margin-top:20px;
+    }
+        /* #para{
+            padding:30px;
+        } */
+    #click-but{
+        margin-bottom: 20px;
+    }
+    #right{
+width: 100%;
+    }
+    #Bot-main{
+        flex-direction: column;
+        /* height:100%; */
+        padding: 40px;
+        align-items: center;
+
+    }
+#bot-left{
+    width:100%;
+    height:50%;
+}
+#left-pics{
+    max-width:50vw;
+    height:100%;
+}
+/* #right-pic{
+    width:50%;
+    height:50%;
+} */
+#right-pic{
+    height: 100%;
+    width:50vw;
+}
+#box-right{
+    align-items: center;
+    /* justify-content: center; */
+    padding:0px;
+}
+
+}
